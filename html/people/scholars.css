@@ -1,0 +1,181 @@
+body {
+  font-family: "DM Sans";
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar */
+.hss-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 120px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.dept-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.dept-name span:nth-child(1) {
+  font-size: 14px;
+}
+
+.dept-name span:nth-child(2) {
+  font-size: 18px;
+}
+
+.nav-links li {
+  list-style-type: none;
+
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #303030;
+  padding: 28px 20px;
+}
+
+.nav-links li .active {
+  text-decoration: none;
+  border-bottom: 4px solid #164e83;
+  color: #164e83;
+}
+
+.vl {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  height: 50px;
+  display: inline;
+  margin: 0px 15px;
+}
+
+/* Footer */
+.footer {
+  background: #1b2d45;
+  color: white;
+  padding: 80px 120px 30px;
+  font-size: 14px;
+}
+
+.footer .about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .about h3 {
+  font-size: 32px;
+  margin: 0px 0px 60px;
+}
+
+.footer > hr {
+  margin-top: 60px;
+}
+
+.footer .copyrights {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+i {
+  margin-right: 10px;
+}
+
+/* Content */
+.hss-container {
+  margin: 120px;
+}
+
+.prof-card {
+  display: flex;
+  padding: 20px;
+  border: 1px solid rgba(206, 206, 206, 0.2);
+  border-radius: 5px;
+  box-shadow: 0px 8px 12px 0px rgba(154, 170, 207, 0.18);
+}
+
+.prof-card img {
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.hss-container h1 {
+  color: rgba(27, 45, 69, 1);
+}
+
+.hss-container p {
+  color: rgba(67, 85, 121, 1);
+  max-width: 700px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.hss-container h2 {
+  margin-top: 40px;
+  color: rgba(27, 45, 69, 1);
+}
+
+.hss-container span a {
+  color: #7b88a1;
+  text-decoration: none;
+}
+
+.hss-container span:nth-child(2) {
+  color: rgba(27, 45, 69, 1);
+}
+
+.prof-card div h3 {
+  font-size: 20;
+  line-height: 34px;
+  margin-bottom: 4px;
+  color: rgba(27, 45, 69, 1);
+}
+
+.prof-card div h4 {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 4px;
+  color: rgba(27, 45, 69, 1);
+}
+
+.date-mail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.res-area {
+  background: #ecf1fb;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.res-area span {
+  color: rgba(123, 136, 161, 1);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.res-area span strong {
+  color: rgba(27, 45, 69, 1);
+}
+
+.prof-card div p {
+  color: #435579;
+  margin: 0;
+}
+
+.prof-card i {
+  color: rgba(48, 48, 48, 0.5);
+}

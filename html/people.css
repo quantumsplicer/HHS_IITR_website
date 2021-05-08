@@ -1,0 +1,186 @@
+body {
+  font-family: "DM Sans";
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar */
+.hss-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 120px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.dept-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.dept-name span:nth-child(1) {
+  font-size: 14px;
+}
+
+.dept-name span:nth-child(2) {
+  font-size: 18px;
+}
+
+.nav-links li {
+  list-style-type: none;
+
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #303030;
+  padding: 28px 20px;
+}
+
+.nav-links li .active {
+  text-decoration: none;
+  border-bottom: 4px solid #164e83;
+  color: #164e83;
+}
+
+.vl {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  height: 50px;
+  display: inline;
+  margin: 0px 15px;
+}
+
+/* Footer */
+.footer {
+  background: #1b2d45;
+  color: white;
+  padding: 80px 120px 30px;
+  font-size: 14px;
+}
+
+.footer .about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .about h3 {
+  font-size: 32px;
+  margin: 0px 0px 60px;
+}
+
+.footer > hr {
+  margin-top: 60px;
+}
+
+.footer .copyrights {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+i {
+  margin-right: 10px;
+}
+
+/* Content */
+
+.view {
+  padding: 75px 120px;
+  display: flex;
+  align-items: center;
+}
+
+.view:nth-child(even) {
+  flex-direction: row-reverse;
+  background: rgba(251, 251, 253, 1);
+}
+
+.view button {
+  background: rgba(248, 249, 251, 1);
+  border: 1px solid rgba(27, 45, 69, 1);
+  padding: 12px 20px;
+  border-radius: 4px;
+  color: rgba(27, 45, 69, 1);
+}
+
+.view h2 {
+  font-size: 40px;
+  color: rgba(27, 45, 69, 1);
+  font-weight: 400;
+}
+
+.view p {
+  color: rgba(27, 45, 69, 1);
+}
+
+.view button {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(27, 45, 69, 1);
+}
+
+/* .view:nth-child(1) {
+  box-shadow: 50px 50px 0px 20px green;
+} */
+
+.office-staff {
+  padding: 75px 120px;
+  background: rgba(251, 251, 253, 1);
+}
+
+.office-staff h2 {
+  font-size: 40px;
+  color: rgba(27, 45, 69, 1);
+}
+
+.office-staff p {
+  font-size: 20px;
+  color: rgba(48, 48, 48, 1);
+}
+
+.staff-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.staff-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid rgba(206, 206, 206, 0.2);
+  border-radius: 5px;
+  box-shadow: 0px 8px 12px 0px rgba(154, 170, 207, 0.18);
+  margin: 20px auto;
+}
+
+.staff-card img {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.staff-card h3 {
+  color: rgba(27, 45, 69, 1);
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(67, 85, 121, 0.2);
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.staff-card span {
+  font-size: 16px;
+  color: rgba(67, 85, 121, 1);
+  line-height: 25px;
+}
+
+.staff-card div {
+  margin: 0px 20px;
+}
