@@ -1,0 +1,600 @@
+.navbar_area{
+  position: absolute;
+width: 100vw;
+height: 87px;
+left: -1px;
+top: 0px;
+
+background: #FFFFFF;
+}
+.iitrlogo{
+  position: absolute;
+width: 3.05vw;
+padding-top:100;
+left: 8.32vw;
+top: 22px;
+
+background: url(image.png);
+}
+.line{
+  position: absolute;
+width: 45px;
+height: 0px;
+left: 10.67vw;
+top: 42px;
+
+opacity: 0.2;
+border: 1px solid #000000;
+transform: rotate(90deg);
+
+}
+.dof{
+  position: absolute;
+width: 6.65vw;
+height: 18px;
+left: 13.40vw;
+top: 25px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+
+color: #000000;
+}
+.deptt{
+  position: absolute;
+width: 18.30vw;
+height: 23px;
+left: 13.40vw;
+top: 40px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+
+color: #000000;
+
+}
+.home{
+  position: absolute;
+width: 3.05vw;
+height: 21px;
+left: 46.74vw;
+top: 34px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #303030;
+
+}
+.about{
+  position: absolute;
+width: 3.19vw;
+height: 21px;
+left: 52.63vw;
+top: 34px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #303030;
+}
+.academics{
+  position: absolute;
+width: 6.03vw;
+height: 21px;
+left: 58.46vw;
+top: 34px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #303030;
+}
+.research{
+  position: absolute;
+width: 4.71vw;
+height: 21px;
+left: 67.1vw;
+top: 34px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #303030;
+
+}
+.facilities{
+  position: absolute;
+width: 4.50vw;
+height: 21px;
+left: 74.61vw;
+top: 34px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #303030;
+
+}
+.events{
+  position: absolute;
+width: 3.46vw;
+height: 21px;
+left: 81.90vw;
+top: 34px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #303030;
+}
+.people{
+  position: absolute;
+width: 3.53vw;
+height: 21px;
+left: 88.14vw;
+top: 34px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #303030;
+
+}
+
+.faclink1{
+  position: absolute;
+width: 70px;
+height: 26px;
+left: 120px;
+top: 127px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+
+
+/* Dates */
+
+color: #7B88A1;
+
+}
+.faclinkecond{
+  position: absolute;
+width: 148px;
+height: 26px;
+left: 194px;
+top: 124px;
+
+/* Paragraph Medium */
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+/* Headings */
+
+color: #1B2D45;
+}
+.econdg1244{
+  position: absolute;
+width: 116px;
+height: 116px;
+left: 120px;
+top: 555px;
+}
+.econdlinkhead{
+  position: absolute;
+width: 990px;
+height: 38px;
+left: 120px;
+top: 187px;
+
+/* Heading 3 */
+
+font-family: Domaine Display Test;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 120%;
+/* or 38px */
+
+
+color: #1B2D45;
+
+}
+.econdg1245{
+  position: absolute;
+width: 110.12px;
+height: 116px;
+left: 1183.88px;
+top: 235px;
+}
+.econdrect{
+  position: absolute;
+width: 1133px;
+height: 400px;
+left: 159px;
+top: 265px;
+
+background: #F3F3F3;
+}
+.mainbuildingecondlarge{
+  position: absolute;
+width: 1143px;
+height: 406px;
+left: 158px;
+top: 275.5px;
+
+background: url(ayaneshu-bhardwaj-Acx3N9h-QXs-unsplash.jpg);
+filter: drop-shadow(20px 20px 29px rgba(27, 45, 69, 0.1));
+border-radius: 4px;
+}
+.econdpara1{
+  position: absolute;
+width: 786px;
+height: 128px;
+left: 327px;
+top: 751px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+
+color: #435579;
+}
+.mainbuildingecondsmall{
+  
+position: absolute;
+width: 781px;
+height: 188px;
+left: 327px;
+top: 934px;
+
+background: url(ayaneshu-bhardwaj-Acx3N9h-QXs-unsplash.jpg);
+border-radius: 4px;
+}
+.econdani{
+  position: absolute;
+width: 762.4px;
+height: 45px;
+left: 327px;
+top: 1146px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 160%;
+/* identical to box height, or 45px */
+
+
+color: #1B2D45;
+
+}
+.econdanitext{
+  position: absolute;
+width: 762.4px;
+height: 160px;
+left: 327px;
+top: 1199px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+
+color: #435579;
+}
+.econdcd{
+  position: absolute;
+width: 762.4px;
+height: 45px;
+left: 327px;
+top: 1419px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 160%;
+/* identical to box height, or 45px */
+
+
+color: #1B2D45;
+
+}
+.econdcdtext{
+  position: absolute;
+width: 762.4px;
+height: 224px;
+left: 327px;
+top: 1472px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+text-transform: capitalize;
+
+color: #435579;
+}
+.econdiscom{
+  position: absolute;
+width: 762.4px;
+height: 45px;
+left: 327px;
+top: 1724px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 160%;
+/* identical to box height, or 45px */
+
+
+color: #1B2D45;
+}
+.econdiscomtext{
+  position: absolute;
+width: 786px;
+height: 224px;
+left: 327px;
+top: 1777px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+text-transform: capitalize;
+
+color: #435579;
+
+}
+.econdnsstext{
+  position: absolute;
+width: 786px;
+height: 352px;
+left: 327px;
+top: 2114px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+text-transform: capitalize;
+
+color: #435579;
+}
+.econdnss{
+  position: absolute;
+width: 762.4px;
+height: 45px;
+left: 327px;
+top: 2061px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 160%;
+/* identical to box height, or 45px */
+
+
+color: #1B2D45;
+}
+.econdwbg1{
+  position: absolute;
+width: 1440px;
+height: 900px;
+left: 0px;
+top: 2469px;
+
+background: #FFFFFF;
+}
+.econdimglink1{
+  position: absolute;
+width: 378px;
+height: 500px;
+left: 123px;
+top: 200px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.12);
+box-sizing: border-box;
+border-radius: 8px;
+}
+.econdimg1{
+  position: absolute;
+width: 378px;
+height: 219px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+border-radius: 8px 8px 0px 0px;
+}
+.econdlanglab{
+  position: absolute;
+width: 162px;
+height: 29px;
+left: 24px;
+top: 243px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #1B2D45;
+}
+.econdlanglabtext{
+  position: absolute;
+width: 330px;
+height: 132px;
+left: 24px;
+top: 280px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 160%;
+/* or 22px */
+
+text-transform: capitalize;
+
+color: #435579;
+}
+.econdgreybg1{
+  position: absolute;
+width: 378px;
+height: 43px;
+left: 0px;
+top: 457px;
+
+background: #F8F9FB;
+border-radius: 0px 0px 8px 8px;
+}
+.econdllreadmore{
+  position: absolute;
+width: 81px;
+height: 16px;
+left: 137px;
+top: 14px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+/* identical to box height, or 16px */
+
+
+color: #164E83;
+
+}
+.econdarrow1{
+  position: absolute;
+left: 213.67px;
+right: 8.34%;
+top: 13.67px;
+bottom: -75%;
+}
+.econdimglink2{
+  position: absolute;
+width: 378px;
+height: 500px;
+left: 551px;
+top: 200px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.12);
+box-sizing: border-box;
+border-radius: 8px;
+}
+.econdimglink3{
+  position: absolute;
+width: 378px;
+height: 500px;
+left: 979px;
+top: 200px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.12);
+box-sizing: border-box;
+border-radius: 8px;
+}
+.econddlcl2{
+  position: absolute;
+width: 354px;
+height: 58px;
+left: 24px;
+top: 243px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+text-transform: capitalize;
+
+color: #1B2D45;
+}
+
