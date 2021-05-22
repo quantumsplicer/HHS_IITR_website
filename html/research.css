@@ -1,3 +1,97 @@
+body {
+  font-family: "DM Sans";
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar */
+.hss-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 120px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.dept-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.dept-name span:nth-child(1) {
+  font-size: 14px;
+}
+
+.dept-name span:nth-child(2) {
+  font-size: 18px;
+}
+
+.nav-links li {
+  list-style-type: none;
+
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #303030;
+  padding: 28px 20px;
+}
+
+.nav-links li .active {
+  text-decoration: none;
+  border-bottom: 4px solid #164e83;
+  color: #164e83;
+}
+
+.vl {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  height: 50px;
+  display: inline;
+  margin: 0px 15px;
+}
+
+/* Footer */
+.footer {
+  background: #1b2d45;
+  color: white;
+  padding: 80px 120px 30px;
+  font-size: 14px;
+}
+
+.footer .about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .about h3 {
+  font-size: 32px;
+  margin: 0px 0px 60px;
+}
+
+.footer > hr {
+  margin-top: 60px;
+}
+
+.footer .copyrights {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+i {
+  margin-right: 10px;
+}
+
 .navbar_area {
   position: absolute;
   width: 100vw;

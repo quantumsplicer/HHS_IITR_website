@@ -93,12 +93,17 @@ i {
 }
 
 /* Content */
+.landing {
+  padding: 75px 120px;
+  display: flex;
+  align-items: center;
+}
 
 .view {
   padding: 75px 120px;
 }
 
-.view:nth-child(even) {
+.view:nth-child(odd) {
   background: rgba(251, 251, 253, 1);
 }
 
@@ -127,60 +132,8 @@ i {
 }
 
 /* .view:nth-child(1) {
-    box-shadow: 50px 50px 0px 20px green;
-  } */
-
-.office-staff {
-  padding: 75px 120px;
-  background: rgba(251, 251, 253, 1);
-}
-
-.office-staff h2 {
-  font-size: 40px;
-  color: rgba(27, 45, 69, 1);
-}
-
-.office-staff p {
-  font-size: 20px;
-  color: rgba(48, 48, 48, 1);
-}
-
-.staff-list {
-  display: flex;
-  justify-content: space-around;
-}
-
-.staff-card {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  border: 1px solid rgba(206, 206, 206, 0.2);
-  border-radius: 5px;
-  box-shadow: 0px 8px 12px 0px rgba(154, 170, 207, 0.18);
-  margin: 20px auto;
-}
-
-.staff-card img {
-  border-radius: 5px 0px 0px 5px;
-}
-
-.staff-card h3 {
-  color: rgba(27, 45, 69, 1);
-  padding-bottom: 10px;
-  border-bottom: 1px solid rgba(67, 85, 121, 0.2);
-  font-size: 20px;
-  line-height: 32px;
-}
-
-.staff-card span {
-  font-size: 16px;
-  color: rgba(67, 85, 121, 1);
-  line-height: 25px;
-}
-
-.staff-card div {
-  margin: 0px 20px;
-}
+  box-shadow: 50px 50px 0px 20px green;
+} */
 
 /* Announcments */
 .announcments {
@@ -213,69 +166,99 @@ i {
   margin-right: 2rem;
 }
 
-/* About */
-.about {
-  display: flex;
-  align-items: center;
-}
-
 /* Our History */
 .view__history {
   display: flex;
   align-items: center;
 }
-.history__card {
-  background: white;
-  padding: 30px 50px;
-}
 
-/*From HODs Desk*/
-.hod > h2 {
+/* Propective Students */
+.students > h2,
+.students > p {
   text-align: center;
-}
-.hod__about {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-}
-.hod__about > div {
-  background: rgba(251, 251, 253, 1);
-  padding: 40px 60px;
-}
-.hod__about > div > h3 {
-  line-height: 51px;
-  margin: 0px;
-  border-bottom: 1px solid rgba(67, 85, 121, 0.2);
-  color: #1b2d45;
-}
-.hod__about > div > p {
-  line-height: 41px;
-  margin: 0px;
-  color: #435579;
-}
-.hod__about > div > span {
-  line-height: 21px;
-  margin: 0px;
-  color: #435579;
-}
-.hod__note {
-  background: rgba(251, 251, 253, 1);
-  box-shadow: 20, 20, 60, 0, rgba(27, 45, 69, 0.04);
-  padding: 40px 60px;
-  margin: 50px;
-}
-.hod__note > h3 {
-  color: #1b2d45;
-  margin-bottom: 24px;
-}
-.hod__note > p {
-  color: #435579;
-  font-size: 16px;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
 }
 
-/* DAPC */
-.dapc > p {
-  color: #435579;
+.students > div {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+}
+
+.students > div > div {
+  display: flex;
+  align-items: center;
+  margin: 40px;
+}
+
+.students > div > div:last-child {
+  flex-direction: row-reverse;
+}
+
+.students > div > div > div {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.students > div > div > div > button {
+  background: transparent;
+}
+
+/* News and Events*/
+
+.view__news__awards > p {
   max-width: 700px;
-  margin: 20px 0px;
+}
+
+.card__div {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+
+.card__div button {
+  display: block;
+  width: 100%;
+  border: none;
+  margin-top: 20px;
+  color: #164e83;
+}
+
+.card__news {
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  margin: 20px;
+}
+
+.card__news > div,
+.card__awards > div {
+  padding: 20px;
+}
+
+.card__awards {
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  margin: 20px;
+}
+
+.card__awards th {
+  padding-right: 20px;
+}
+
+.dp {
+  display: flex;
+  margin-bottom: 20px;
+}
+.dp > img {
+  margin-right: 20px;
+}
+
+.view__more {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
