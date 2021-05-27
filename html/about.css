@@ -12,6 +12,35 @@ body {
   padding: 30px 120px;
 }
 
+.grey-back {
+  width: 50%;
+  height: 40%;
+  background-color: #f5faff;
+  position: absolute;
+  z-index: -1;
+  margin-top: 28vh;
+  right: 0px;
+}
+
+.about-heading {
+  font-family: Domaine Display Test;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 120%;
+  color: #1b2d45;
+}
+
+.about-intro {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px !important;
+  line-height: 160%;
+  color: #435579;
+  padding-right: 10vw; 
+}
+
 .nav-links {
   display: flex;
 }
@@ -111,13 +140,22 @@ i {
 }
 
 .view h2 {
-  font-size: 40px;
+  font-size: 48px;
   color: rgba(27, 45, 69, 1);
   font-weight: 400;
+  font-family: Domaine Display Test;
+  font-style: normal;
+  padding: 20px 0 20px 0;
 }
 
 .view p {
   color: rgba(27, 45, 69, 1);
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 170%;
+  /* or 27px */
 }
 
 .view button {
@@ -216,7 +254,8 @@ i {
 /* About */
 .about {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  margin: 0 2vw;
 }
 
 /* Our History */
@@ -227,8 +266,12 @@ i {
 .history__card {
   background: white;
   padding: 30px 50px;
+  margin: 150px 0 0 -10vw;
+  border-radius: 10px;
 }
-
+.hod{
+  width:100%;
+}
 /*From HODs Desk*/
 .hod > h2 {
   text-align: center;
@@ -237,10 +280,14 @@ i {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+  padding: 0 10vw;
 }
 .hod__about > div {
   background: rgba(251, 251, 253, 1);
   padding: 40px 60px;
+  margin: 170px -5vw 0 0;
+  border-radius: 10px;
+  /* position:absolute; */
 }
 .hod__about > div > h3 {
   line-height: 51px;
@@ -261,8 +308,9 @@ i {
 .hod__note {
   background: rgba(251, 251, 253, 1);
   box-shadow: 20, 20, 60, 0, rgba(27, 45, 69, 0.04);
-  padding: 40px 60px;
-  margin: 50px;
+  padding: 70px 150px;
+  margin: 50px 100px;
+  text-align: justify;
 }
 .hod__note > h3 {
   color: #1b2d45;

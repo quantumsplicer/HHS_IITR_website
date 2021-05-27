@@ -94,13 +94,43 @@ i {
 
 /* Content */
 .landing {
-  padding: 75px 120px;
+  padding: 75px 10vw;
   display: flex;
   align-items: center;
 }
+.homepage-headings {
+  width: 40%;
+  margin-right: 10%;
+}
+.homepage-heading1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
 
+  letter-spacing: 0.4em;
+}
+.homepage-heading2 {
+  font-family: Domaine Display Test;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 120%;
+  /* or 58px */
+
+  color: #1b2d45;
+}
+.grey-back {
+  width: 60%;
+  height: 40%;
+  background-color: #f5faff;
+  position: absolute;
+  z-index: -1;
+  /* margin-left:30%;  */
+  right: 0px;
+}
 .view {
-  padding: 75px 120px;
+  padding: 75px 10vw;
 }
 
 .view:nth-child(odd) {
@@ -119,10 +149,22 @@ i {
   font-size: 40px;
   color: rgba(27, 45, 69, 1);
   font-weight: 400;
+  font-family: Domaine Display Test;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #1b2d45;
 }
 
 .view p {
   color: rgba(27, 45, 69, 1);
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 170%;
+  color: #435579;
 }
 
 .view button {
@@ -166,10 +208,17 @@ i {
   margin-right: 2rem;
 }
 
+.homepage-history-content {
+  padding-left: 50px;
+}
 /* Our History */
 .view__history {
   display: flex;
   align-items: center;
+  padding-bottom: 50px;
+}
+.view__history h2 {
+  padding-bottom: 50px;
 }
 
 /* Propective Students */
@@ -182,7 +231,7 @@ i {
 }
 
 .students > div {
-  max-width: 900px;
+  max-width: 1100px;
   display: flex;
   flex-direction: column;
   margin: 20px auto;
@@ -194,6 +243,10 @@ i {
   margin: 40px;
 }
 
+.students > div > div > img {
+  box-shadow: 1px 1px 50px #aaa;
+}
+
 .students > div > div:last-child {
   flex-direction: row-reverse;
 }
@@ -202,6 +255,8 @@ i {
   background: white;
   padding: 30px;
   border-radius: 4px;
+  z-index: 2;
+  /* margin-left: -50px; */
 }
 
 .students > div > div > div > button {
@@ -211,13 +266,15 @@ i {
 /* News and Events*/
 
 .view__news__awards > p {
-  max-width: 700px;
+  max-width: 800px;
 }
-
+.view__news__awards h2 {
+  padding-bottom: 50px;
+}
 .card__div {
   display: flex;
   justify-content: space-between;
-  margin: 30px auto;
+  margin: 60px auto;
 }
 
 .card__div button {
@@ -234,6 +291,18 @@ i {
   margin: 20px;
 }
 
+.card__news img {
+  width: 100%;
+}
+.card__news p {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #435579;
+}
+
 .card__news > div,
 .card__awards > div {
   padding: 20px;
@@ -247,6 +316,13 @@ i {
 
 .card__awards th {
   padding-right: 20px;
+  color: #7b88a1;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  padding-bottom: 10px;
 }
 
 .dp {
