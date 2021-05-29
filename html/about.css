@@ -38,7 +38,7 @@ body {
   font-size: 20px !important;
   line-height: 160%;
   color: #435579;
-  padding-right: 10vw; 
+  padding-right: 10vw;
 }
 
 .nav-links {
@@ -100,11 +100,23 @@ body {
 .footer .about {
   display: flex;
   justify-content: space-between;
+  margin: 0px;
 }
 
 .footer .about h3 {
   font-size: 32px;
   margin: 0px 0px 60px;
+}
+
+.about a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-top: 20px;
+}
+
+.about a:hover {
+  color: #ccc;
 }
 
 .footer > hr {
@@ -196,10 +208,13 @@ i {
   border-radius: 5px;
   box-shadow: 0px 8px 12px 0px rgba(154, 170, 207, 0.18);
   margin: 20px auto;
+  min-width: 480px;
 }
 
 .staff-card img {
   border-radius: 5px 0px 0px 5px;
+  width: 160px;
+  height: 160px;
 }
 
 .staff-card h3 {
@@ -269,8 +284,8 @@ i {
   margin: 150px 0 0 -10vw;
   border-radius: 10px;
 }
-.hod{
-  width:100%;
+.hod {
+  width: 100%;
 }
 /*From HODs Desk*/
 .hod > h2 {
