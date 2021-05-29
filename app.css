@@ -78,6 +78,17 @@ body {
   margin: 0px 0px 60px;
 }
 
+.about a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-top: 20px;
+}
+
+.about a:hover {
+  color: #ccc;
+}
+
 .footer > hr {
   margin-top: 60px;
 }
@@ -182,9 +193,13 @@ i {
   margin-top: 5rem;
 }
 
-.announcments > div {
+.announcments > a > div {
   border-bottom: 1px solid rgba(48, 48, 48, 0.12);
   padding: 3rem;
+}
+
+.announcments a {
+  text-decoration: none;
 }
 
 .announcments div:hover {
@@ -331,6 +346,9 @@ i {
 }
 .dp > img {
   margin-right: 20px;
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
 }
 
 .view__more {
