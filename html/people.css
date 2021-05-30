@@ -113,14 +113,62 @@ i {
   color: rgba(27, 45, 69, 1);
 }
 
+.view1 {
+  padding: 75px 120px;
+  display: flex;
+  align-items: center;
+}
+
+.view1:nth-child(even) {
+  flex-direction: row-reverse;
+  background: rgba(251, 251, 253, 1);
+}
+
+.view1 button {
+  background: rgba(248, 249, 251, 1);
+  border: 1px solid rgba(27, 45, 69, 1);
+  padding: 12px 20px;
+  border-radius: 4px;
+  color: rgba(27, 45, 69, 1);
+  margin-top: 20px;
+}
+
 .view h2 {
-  font-size: 40px;
+  font-size: 48px;
   color: rgba(27, 45, 69, 1);
   font-weight: 400;
+  font-family: Domaine Display Test;
+  font-style: normal;
+  padding: 20px 0 20px 0;
 }
 
 .view p {
   color: rgba(27, 45, 69, 1);
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 170%;
+  /* or 27px */
+}
+
+.view1 h2 {
+  font-size: 40px;
+  color: rgba(27, 45, 69, 1);
+  font-weight: 400;
+  font-family: Domaine Display Test;
+  font-style: normal;
+  padding: 20px 0 20px 0;
+}
+
+.view1 p {
+  color: rgba(27, 45, 69, 1);
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 170%;
+  /* or 27px */
 }
 
 .view button {

@@ -60,6 +60,15 @@ body {
   margin: 0px 15px;
 }
 
+.view h2 {
+  font-size: 48px;
+  color: rgba(27, 45, 69, 1);
+  font-weight: 400;
+  font-family: Domaine Display Test;
+  font-style: normal;
+  padding: 20px 0 20px 0;
+}
+
 /* Footer */
 .footer {
   background: #1b2d45;
