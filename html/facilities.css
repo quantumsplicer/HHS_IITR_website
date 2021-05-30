@@ -118,16 +118,16 @@ i {
   justify-content: center;
 }
 
-.landing {
+/* .landing {
   padding: 75px 10vw;
   display: flex;
   align-items: center;
-}
+} */
 
-.view > div:nth-child(1) {
+.view1 > div:nth-child(1) {
   display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .view {
@@ -136,4 +136,94 @@ i {
 
 .view:nth-child(even) {
   background: rgba(251, 251, 253, 1);
+}
+
+
+.view {
+  padding: 75px 120px;
+  display: flex;
+  align-items: center;
+}
+
+.view:nth-child(even) {
+  flex-direction: row-reverse;
+  background: rgba(251, 251, 253, 1);
+}
+
+.view button {
+  background: rgba(248, 249, 251, 1);
+  border: 1px solid rgba(27, 45, 69, 1);
+  padding: 12px 20px;
+  border-radius: 4px;
+  color: rgba(27, 45, 69, 1);
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.view1 {
+  padding: 75px 120px;
+  display: flex;
+  align-items: center;
+}
+
+.view1:nth-child(even) {
+  flex-direction: row-reverse;
+  background: rgba(251, 251, 253, 1);
+}
+
+.view1 button {
+  background: rgba(248, 249, 251, 1);
+  border: 1px solid rgba(27, 45, 69, 1);
+  padding: 12px 20px;
+  border-radius: 4px;
+  color: rgba(27, 45, 69, 1);
+  margin-top: 20px;
+}
+
+.view h2 {
+  font-size: 48px;
+  color: rgba(27, 45, 69, 1);
+  font-weight: 400;
+  font-family: Domaine Display Test;
+  font-style: normal;
+  padding: 20px 0 20px 0;
+}
+
+.view p {
+  color: rgba(27, 45, 69, 1);
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 170%;
+  /* or 27px */
+}
+
+.view1 h2 {
+  font-size: 40px;
+  color: rgba(27, 45, 69, 1);
+  font-weight: 400;
+  font-family: Domaine Display Test;
+  font-style: normal;
+  padding: 20px 0 20px 0;
+}
+
+.view1 p {
+  color: rgba(27, 45, 69, 1);
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 170%;
+  /* or 27px */
+} 
+
+.grey-back {
+  width: 50%;
+  height: 40%;
+  background-color: #f5faff;
+  position: absolute;
+  z-index: -1;
+  margin-top: 28vh;
+  right: 0px;
 }

@@ -236,3 +236,13 @@ i {
 .staff-card div {
   margin: 0px 20px;
 }
+
+.grey-back {
+  width: 50%;
+  height: 40%;
+  background-color: #f5faff;
+  position: absolute;
+  z-index: -1;
+  margin-top: 28vh;
+  right: 0px;
+}

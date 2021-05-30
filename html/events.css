@@ -53,6 +53,16 @@ body {
   color: #164e83;
 }
 
+.grey-back {
+  width: 50%;
+  height: 40%;
+  background-color: #f5faff;
+  position: absolute;
+  z-index: -1;
+  margin-top: 28vh;
+  right: 0px;
+}
+
 .vl {
   border-left: 1px solid rgba(0, 0, 0, 0.2);
   height: 50px;
