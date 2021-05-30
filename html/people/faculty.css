@@ -100,6 +100,17 @@ i {
 .prof-card {
   display: flex;
   padding: 20px;
+  margin: 10px 0px;
+}
+
+.prof-card:hover {
+  border: 1px solid rgba(206, 206, 206, 0.2);
+  border-radius: 5px;
+  box-shadow: 0px 8px 12px 0px rgba(154, 170, 207, 0.18);
+}
+
+.prof-card > div {
+  flex-grow: 1;
 }
 
 .hod {
@@ -108,9 +119,11 @@ i {
   box-shadow: 0px 8px 12px 0px rgba(154, 170, 207, 0.18);
 }
 
-.prof-card img {
+.prof-card > img {
   border-radius: 5px;
   margin-right: 20px;
+  width: 170px;
+  height: 170px;
 }
 
 .hss-container h1 {
