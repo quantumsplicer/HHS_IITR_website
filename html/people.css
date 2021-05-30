@@ -111,6 +111,8 @@ i {
   padding: 12px 20px;
   border-radius: 4px;
   color: rgba(27, 45, 69, 1);
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .view1 {
@@ -171,11 +173,11 @@ i {
   /* or 27px */
 }
 
-.view button {
+/* .view button {
   font-size: 14px;
   line-height: 16px;
   color: rgba(27, 45, 69, 1);
-}
+} */
 
 /* .view:nth-child(1) {
   box-shadow: 50px 50px 0px 20px green;
@@ -213,6 +215,8 @@ i {
 
 .staff-card img {
   border-radius: 5px 0px 0px 5px;
+  width: 200px;
+  height: 180px;
 }
 
 .staff-card h3 {
