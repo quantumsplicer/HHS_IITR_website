@@ -304,6 +304,9 @@ i {
   border: 1px solid #f1f1f1;
   border-radius: 4px;
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card__news img {
