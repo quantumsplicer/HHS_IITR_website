@@ -165,6 +165,8 @@ i {
 
 .staff-card img {
   border-radius: 5px 0px 0px 5px;
+  width: 200px;
+  height: 180px;
 }
 
 .staff-card h3 {
